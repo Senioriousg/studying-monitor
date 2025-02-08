@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: supervised-learning
-    plan: free
-    region: singapore
-    dockerfilePath: Dockerfile
-    healthCheckPath: /health
-    autoDeploy: true

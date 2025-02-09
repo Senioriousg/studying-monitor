@@ -2,8 +2,6 @@ FROM python:3.9-slim
 
 WORKDIR /app
 
-RUN sed -i 's/deb.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list.d/debian.sources
-
 RUN apt-get update && apt-get install -y \
     gcc \
     python3-dev \

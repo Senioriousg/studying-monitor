@@ -264,8 +264,8 @@ def monitor():
 
                 // 初始化加载
                 loadContent();
-                // 每 3 秒刷新
-                setInterval(loadContent, 3000);
+                // 每 5 秒刷新
+                setInterval(loadContent, 5000);
             </script>
         </body>
         </html>

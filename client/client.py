@@ -5,7 +5,7 @@ import io
 import os
 
 SERVER_URL = "http://localhost:9160/upload"  # 替换为实际地址
-USER_ID = "user02"  # 每个客户端需要不同ID
+USER_ID = "user01"  # 每个客户端需要不同ID
 
 def capture_and_upload():
     while True:

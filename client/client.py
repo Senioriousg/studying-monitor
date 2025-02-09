@@ -5,7 +5,7 @@ import io
 import os
 
 SERVER_URL = "http://localhost:9160/upload"  # 替换为实际地址
-USER_ID = "user01"  # 每个客户端需要不同ID
+USER_ID = "user01"  # 每个客户端需要不同 ID
 
 def capture_and_upload():
     while True:
@@ -24,7 +24,7 @@ def capture_and_upload():
         except Exception as e:
             print(f"Error: {e}")
         
-        time.sleep(3)  # 1秒间隔
+        time.sleep(3)  # 3 秒间隔
 
 if __name__ == '__main__':
     capture_and_upload()
